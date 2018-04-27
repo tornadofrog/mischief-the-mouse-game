@@ -1,0 +1,626 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 128,
+    "stepHeight": 93,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.initScene();",
+    "create_after": "\r\n\r\n"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      172,
+      255,
+      77
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "68c7fee4-bd4f-4c3a-9da8-4b7c51847522",
+          "asset": "0",
+          "info": {
+            "editorName": "BG",
+            "x": -19,
+            "y": -20
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "c9263e48-41b8-4dc3-9fe0-94366f860e60",
+          "asset": "1",
+          "info": {
+            "editorName": "_4",
+            "x": 423,
+            "y": 102,
+            "width": 373.37599182128906,
+            "height": 93
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "f2dfd2b5-7d94-4d9e-9d42-bff7ee49b6b6",
+          "asset": "2",
+          "info": {
+            "editorName": "_5",
+            "x": 309,
+            "y": 307,
+            "width": 128,
+            "height": 93
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "20ae147d-7af1-4538-8622-f6a45e0677dc",
+          "asset": "3",
+          "info": {
+            "editorName": "_3",
+            "x": 73,
+            "y": 476,
+            "width": 128,
+            "height": 93
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "d03ba292-ef6f-4d43-8aea-c22d6b9b5ed0",
+          "asset": "4",
+          "info": {
+            "editorName": "player",
+            "editorPublic": true,
+            "x": 33,
+            "y": 547,
+            "scale.x": 0.25,
+            "scale.y": 0.25,
+            "anchor.x": 0.5,
+            "animations": [
+              {
+                "name": "walk",
+                "frameRate": 6,
+                "loop": true,
+                "frames": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ]
+              },
+              {
+                "name": "jump",
+                "frameRate": 6,
+                "loop": true,
+                "frames": [
+                  "4",
+                  "5"
+                ]
+              },
+              {
+                "name": "idle",
+                "frameRate": 4,
+                "loop": true,
+                "frames": [
+                  "0",
+                  "1",
+                  "2"
+                ]
+              }
+            ],
+            "body": {
+              "type": "ARCADE_RECT",
+              "offsetY": -1.848846435546875,
+              "collideWorldBounds": true,
+              "width": 211.8488311767578,
+              "height": 200.85348510742188
+            }
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "50a6a367-bdb4-470c-9103-3ee5e1ae5546",
+          "asset": "5",
+          "info": {
+            "editorName": "Mushroom_",
+            "x": 130,
+            "y": 451.2377088551968,
+            "scale.x": 0.5972855657009212,
+            "scale.y": 0.5972855657009212
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "af6cb191-abee-4179-a8d5-a7dfd474d454",
+          "asset": "6",
+          "info": {
+            "editorName": "Sign_",
+            "x": 668,
+            "y": 418,
+            "scale.x": 0.5162706423220143,
+            "scale.y": 0.5162706423220143
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "5e112637-854f-4e3f-b3a1-2fc0187871bf",
+          "asset": "7",
+          "info": {
+            "editorName": "Bush__1_",
+            "x": 442,
+            "y": 37
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "6735eada-f24b-427b-a8e2-e4c9d241e765",
+          "asset": "8",
+          "info": {
+            "editorName": "_7",
+            "x": -2,
+            "y": 572,
+            "scale.x": 1.4313253936432688
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "b7ad6cdd-2541-4a49-ad8f-0a8c9e217637",
+          "asset": "9",
+          "info": {
+            "editorName": "_",
+            "x": 634,
+            "y": 451,
+            "width": 63.3582763671875,
+            "height": 52.95611572265625
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "ad920f70-3c84-4f25-9fab-43c02e3e0190",
+          "asset": "8",
+          "info": {
+            "editorName": "_71",
+            "x": 181,
+            "y": 573,
+            "scale.x": 0.9715890402966008
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "9977d687-6367-4a11-a92a-975cf831c121",
+          "asset": "8",
+          "info": {
+            "editorName": "_711",
+            "x": 305,
+            "y": 573,
+            "scale.x": 0.9715890402966008
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "134799ed-61ad-45c0-8f24-875d54845ede",
+          "asset": "8",
+          "info": {
+            "editorName": "_712",
+            "x": 428,
+            "y": 573,
+            "scale.x": 0.9715890402966008
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "0c876295-2d38-4b93-b868-99a7825806d0",
+          "asset": "8",
+          "info": {
+            "editorName": "_713",
+            "x": 551,
+            "y": 573,
+            "scale.x": 0.9715890402966008
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "235fcc3c-99f9-458d-8c36-d2d82d66ff47",
+          "asset": "8",
+          "info": {
+            "editorName": "_714",
+            "x": 675,
+            "y": 573,
+            "scale.x": 1.0064177105746555
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "23b14574-3d38-4d46-8f21-730bbd35680a",
+          "asset": "10",
+          "info": {
+            "editorName": "Crate",
+            "x": 745,
+            "y": 61,
+            "scale.x": 0.5275624532375992,
+            "scale.y": 0.5275624532375992
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "21f88144-ab1e-4777-88a8-97ff381add01",
+          "asset": "11",
+          "info": {
+            "editorName": "Bush__4_",
+            "x": 558,
+            "y": 58
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "d982d32b-bec6-45e7-a28f-2d8793df9b74",
+          "asset": "7",
+          "info": {
+            "editorName": "Bush__1_1",
+            "x": 614,
+            "y": 54,
+            "scale.x": 0.7530926029139844,
+            "scale.y": 0.7530926029139844
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "4ac65e93-9b42-4b23-87b4-81ea9eda49a9",
+          "asset": "12",
+          "info": {
+            "editorName": "Tree_",
+            "x": 370,
+            "y": 231,
+            "scale.x": 0.25353572895847737,
+            "scale.y": 0.25353572895847737
+          }
+        },
+        {
+          "type": "group",
+          "id": "acacde0c-ccaa-4522-a838-75198cee6654",
+          "info": {
+            "editorName": "collisionLayer",
+            "editorPublic": true,
+            "renderable": false,
+            "physicsGroup": true,
+            "setAll": [
+              {
+                "key": "body.immovable",
+                "value": "true"
+              },
+              {
+                "key": "body.allowGravity",
+                "value": "false"
+              },
+              {
+                "key": "renderable",
+                "value": "false"
+              }
+            ],
+            "children": [
+              {
+                "type": "tileSprite",
+                "id": "2459c4f4-90d9-4103-9ea2-57b2fa3f7a22",
+                "asset": "13",
+                "info": {
+                  "editorName": "physics1",
+                  "x": 309,
+                  "y": 307,
+                  "renderable": false,
+                  "width": 126.34393310546875,
+                  "height": 27.645538330078125
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "60d2a812-a0d2-41e4-babf-209680675056",
+                "asset": "13",
+                "info": {
+                  "editorName": "physics",
+                  "x": 74,
+                  "y": 475,
+                  "renderable": false,
+                  "width": 126.34393310546875,
+                  "height": 27.645538330078125
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "bfc97044-9f89-4989-8cc3-85c818291655",
+                "asset": "13",
+                "info": {
+                  "editorName": "physics2",
+                  "x": 423,
+                  "y": 102,
+                  "renderable": false,
+                  "width": 372.8668518066406,
+                  "height": 27.645538330078125
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "04366123-3a6a-489d-bf45-448eea3030c3",
+                "asset": "13",
+                "info": {
+                  "editorName": "physics3",
+                  "y": 599,
+                  "renderable": false,
+                  "width": 800.6643218994141,
+                  "height": 27.645538330078125
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "170548fb-2fb5-4969-881b-471bd1cfd6c7",
+                "asset": "13",
+                "info": {
+                  "editorName": "physics4",
+                  "x": 634,
+                  "y": 451,
+                  "renderable": false,
+                  "width": 63.041046142578125,
+                  "height": 27.645538330078125
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "752f22c2-fb80-4b54-b7bc-cd1594254a94",
+          "info": {
+            "editorName": "fruits",
+            "editorPublic": true,
+            "physicsGroup": true,
+            "setAll": [{
+              "key": "body.allowGravity",
+              "value": "false"
+            }],
+            "children": [
+              {
+                "type": "atlas-sprite",
+                "id": "6feb6e83-281a-4c53-9948-7bfc1f9ab9fd",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit0",
+                  "x": 274,
+                  "y": 507
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "552cbc90-af6a-4c43-8344-f6443d460f3b",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit1",
+                  "x": 323,
+                  "y": 507
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "5f5c47b2-47e7-4272-b753-63ee9060fd59",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit2",
+                  "x": 492,
+                  "y": 559
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "d9d6c536-ca75-4996-8320-09c626b0b2d1",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit3",
+                  "x": 636,
+                  "y": 413
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "5c6efd8c-b434-4e3c-bb2a-e4ba18b2aecd",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit4",
+                  "x": 646,
+                  "y": 379
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "34070a20-a7a0-4400-90c0-4c672d279161",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit5",
+                  "x": 342,
+                  "y": 274
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f5ca9702-d90a-4c92-8afc-26864931651a",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit6",
+                  "x": 767,
+                  "y": 17
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "33948f44-1e13-4eae-a0cd-541cd3c803c5",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit7",
+                  "x": 743,
+                  "y": 28
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "eda69348-b715-41e4-bfd2-97240eff848e",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit8",
+                  "x": 717,
+                  "y": 30
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "20c715bb-7861-40d2-a982-42cf78ea3f4c",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit9",
+                  "x": 719,
+                  "y": -4
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "b50e7811-e6e9-427d-a43f-7e433df79381",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit10",
+                  "x": 754,
+                  "y": 534
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "d4a450dd-1522-423d-97ab-51d80b4d9dca",
+                "asset": "14",
+                "info": {
+                  "editorName": "fruit11",
+                  "x": 708,
+                  "y": 544
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "BG"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "14"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "15"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "13"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "player",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Mushroom_2"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Sign_2"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Bush (1)"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "17"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "2"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Crate"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Bush (4)"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Tree_2"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "physics"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "fruit"
+    }
+  },
+  "prefab-table": {}
+}
