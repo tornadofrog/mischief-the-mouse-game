@@ -1,7 +1,5 @@
-# dino
-mario type clone game for learning -- basis is from zenva
-
-https://gamedevacademy.org/make-a-mario-style-platformer-with-the-phaser-editor/
+# mischief the mouse
+help mischief collect food and toys for her family while avoiding the three cats and dog around the house.
 
 ## play game
-Coming soon:)
+coming soon:)
