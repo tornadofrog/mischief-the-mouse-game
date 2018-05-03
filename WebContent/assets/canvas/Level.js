@@ -90,6 +90,8 @@ Level.prototype.create = function () {
 	
 	this.add.sprite(558.0, 58.0, 'objects', 'Bush (4)');
 	
+	this.add.tileSprite(89.0, 153.0, 63.303680419921875, 63.303688049316406, 'tiles', '11');
+	
 	var _Bush__1_1 = this.add.sprite(614.0, 54.0, 'objects', 'Bush (1)');
 	_Bush__1_1.scale.setTo(0.7530926029139844, 0.7530926029139844);
 	
@@ -113,6 +115,8 @@ Level.prototype.create = function () {
 	
 	var _physics4 = this.add.tileSprite(634.0, 451.0, 63.041046142578125, 27.645538330078125, 'tiles', 'physics', _collisionLayer);
 	_physics4.renderable = false;
+	
+	this.add.tileSprite(89.0, 153.0, 63.188804626464844, 10.48480224609375, 'tiles', 'physics', _collisionLayer);
 	
 	var _fruits = this.add.physicsGroup(Phaser.Physics.ARCADE);
 	

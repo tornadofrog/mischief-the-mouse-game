@@ -279,6 +279,18 @@
           }
         },
         {
+          "type": "tileSprite",
+          "id": "c7a5f117-1a14-4897-a919-2a4438db75e1",
+          "asset": "12",
+          "info": {
+            "editorName": "_1",
+            "x": 89,
+            "y": 153,
+            "width": 63.303680419921875,
+            "height": 63.303688049316406
+          }
+        },
+        {
           "type": "atlas-sprite",
           "id": "d982d32b-bec6-45e7-a28f-2d8793df9b74",
           "asset": "7",
@@ -293,7 +305,7 @@
         {
           "type": "atlas-sprite",
           "id": "4ac65e93-9b42-4b23-87b4-81ea9eda49a9",
-          "asset": "12",
+          "asset": "13",
           "info": {
             "editorName": "Tree_",
             "x": 370,
@@ -328,7 +340,7 @@
               {
                 "type": "tileSprite",
                 "id": "2459c4f4-90d9-4103-9ea2-57b2fa3f7a22",
-                "asset": "13",
+                "asset": "14",
                 "info": {
                   "editorName": "physics1",
                   "x": 309,
@@ -341,7 +353,7 @@
               {
                 "type": "tileSprite",
                 "id": "60d2a812-a0d2-41e4-babf-209680675056",
-                "asset": "13",
+                "asset": "14",
                 "info": {
                   "editorName": "physics",
                   "x": 74,
@@ -354,7 +366,7 @@
               {
                 "type": "tileSprite",
                 "id": "bfc97044-9f89-4989-8cc3-85c818291655",
-                "asset": "13",
+                "asset": "14",
                 "info": {
                   "editorName": "physics2",
                   "x": 423,
@@ -367,7 +379,7 @@
               {
                 "type": "tileSprite",
                 "id": "04366123-3a6a-489d-bf45-448eea3030c3",
-                "asset": "13",
+                "asset": "14",
                 "info": {
                   "editorName": "physics3",
                   "y": 599,
@@ -379,7 +391,7 @@
               {
                 "type": "tileSprite",
                 "id": "170548fb-2fb5-4969-881b-471bd1cfd6c7",
-                "asset": "13",
+                "asset": "14",
                 "info": {
                   "editorName": "physics4",
                   "x": 634,
@@ -387,6 +399,18 @@
                   "renderable": false,
                   "width": 63.041046142578125,
                   "height": 27.645538330078125
+                }
+              },
+              {
+                "type": "tileSprite",
+                "id": "d7aadd13-ae0b-4155-8c21-724708cc541c",
+                "asset": "14",
+                "info": {
+                  "editorName": "physics5",
+                  "x": 89,
+                  "y": 153,
+                  "width": 63.188804626464844,
+                  "height": 10.48480224609375
                 }
               }
             ]
@@ -407,7 +431,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "6feb6e83-281a-4c53-9948-7bfc1f9ab9fd",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit0",
                   "x": 274,
@@ -417,7 +441,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "552cbc90-af6a-4c43-8344-f6443d460f3b",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit1",
                   "x": 323,
@@ -427,7 +451,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "5f5c47b2-47e7-4272-b753-63ee9060fd59",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit2",
                   "x": 492,
@@ -437,7 +461,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "d9d6c536-ca75-4996-8320-09c626b0b2d1",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit3",
                   "x": 636,
@@ -447,7 +471,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "5c6efd8c-b434-4e3c-bb2a-e4ba18b2aecd",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit4",
                   "x": 646,
@@ -457,7 +481,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "34070a20-a7a0-4400-90c0-4c672d279161",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit5",
                   "x": 342,
@@ -467,7 +491,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "f5ca9702-d90a-4c92-8afc-26864931651a",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit6",
                   "x": 767,
@@ -477,7 +501,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "33948f44-1e13-4eae-a0cd-541cd3c803c5",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit7",
                   "x": 743,
@@ -487,7 +511,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "eda69348-b715-41e4-bfd2-97240eff848e",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit8",
                   "x": 717,
@@ -497,7 +521,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "20c715bb-7861-40d2-a982-42cf78ea3f4c",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit9",
                   "x": 719,
@@ -507,7 +531,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "b50e7811-e6e9-427d-a43f-7e433df79381",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit10",
                   "x": 754,
@@ -517,7 +541,7 @@
               {
                 "type": "atlas-sprite",
                 "id": "d4a450dd-1522-423d-97ab-51d80b4d9dca",
-                "asset": "14",
+                "asset": "15",
                 "info": {
                   "editorName": "fruit11",
                   "x": 708,
@@ -606,16 +630,22 @@
     "12": {
       "file": "WebContent/assets/pack.json",
       "section": "level",
+      "asset": "tiles",
+      "sprite": "11"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
       "asset": "objects",
       "sprite": "Tree_2"
     },
-    "13": {
+    "14": {
       "file": "WebContent/assets/pack.json",
       "section": "level",
       "asset": "tiles",
       "sprite": "physics"
     },
-    "14": {
+    "15": {
       "file": "WebContent/assets/pack.json",
       "section": "level",
       "asset": "objects",
